@@ -9,11 +9,16 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <nav>
-          <div className="navbar">
-            <Link href="/"> 
+          {/* <div className="navbar"> */}
+            {/* <Link href="/"> 
+              <img className="icon-tag" src="/icon.jpg" alt="fghj"/>
+            </Link> */}
+            <ul>
+              <li>
+              <Link href="/"> 
               <img className="icon-tag" src="/icon.jpg" alt="fghj"/>
             </Link>
-            <ul>
+              </li>
               <li>
                 <Link href="/">
                   Home
@@ -25,18 +30,26 @@ export default function RootLayout({ children }) {
                 </Link>
               </li>
               <li>
-                <RegisterLink>Sign up</RegisterLink>
-              </li>
+                <Link href="https://sadak-soochak.streamlit.app/">
+                M.L <br/> Model
+                </Link>
+              </li> 
               <li>
-                <LoginLink>Sign in</LoginLink>
-              </li>
+                <Link href="http://localhost:3002/" >Grievances</Link>
+              </li> 
               <li>
                 <Link href="/aboutUs">
                   About <br/> us
                 </Link>
               </li>
+              <li className="special">
+                <LoginLink>Sign in</LoginLink>
+              </li>
+              <li className="special">
+                <RegisterLink>Sign Up</RegisterLink>
+              </li>
             </ul>
-          </div>
+          {/* </div> */}
         </nav>
 
         {/* Content */}

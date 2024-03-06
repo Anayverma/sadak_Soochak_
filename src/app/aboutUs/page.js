@@ -22,7 +22,7 @@ export default function AboutUs() {
 
                         <div className="contact-body">
                             <div className="contact-info">
-                                <p>ccfhjblk</p>
+                                Our mission is to pioneer advancements in traffic management systems that enhance safety, improve traffic flow, and reduce environmental impact. We strive to create solutions that not only meet the needs of today but also anticipate the challenges of tomorrow, ensuring sustainable and resilient transportation networks for generations to come.
                                     
                             </div>
                         </div>
@@ -47,24 +47,24 @@ export default function AboutUs() {
                         <div className="contact-body">
                             <div className="contact-info">
                                 <div>
-                                    <span><i className="fas fa-mobile-alt"></i></span>
-                                    <span>Phone No.</span>
-                                    <span className="text">1-2392-23928-2</span>
+                                    <span></span>
+                                    <span>Alan K Biju</span>
+                                    <span className="text">akbiju@gmail.com</span>
                                 </div>
                                 <div>
-                                    <span><i className="fas fa-envelope-open"></i></span>
-                                    <span>E-mail</span>
-                                    <span className="text">mail@company.com</span>
+                                    <span></span>
+                                    <span>Anay Verma</span>
+                                    <span className="text">anayverma@gmail.com</span>
                                 </div>
                                 <div>
-                                    <span><i className="fas fa-map-marker-alt"></i></span>
-                                    <span>Address</span>
-                                    <span className="text">2939 Patrick Street, Victoria TX, United States</span>
+                                    <span></span>
+                                    <span>Jaiditya Batra</span>
+                                    <span className="text">jaibatra@gmail.com</span>
                                 </div>
                                 <div>
-                                    <span><i className="fas fa-clock"></i></span>
-                                    <span>Opening Hours</span>
-                                    <span className="text">Monday - Friday (9:00 AM to 5:00 PM)</span>
+                                    <span></span>
+                                    <span>Rishav Raj</span>
+                                    <span className="text">rishav04@gmail.com</span>
                                 </div>
                             </div>
 
